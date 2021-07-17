@@ -91,8 +91,14 @@ li {
 }
 
 .profissao {
-    color: green;
+    color: rgb(108, 16, 151);
     height: 60px;
+}
+
+.wrapper-formacao {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 
 .topico-principal {
