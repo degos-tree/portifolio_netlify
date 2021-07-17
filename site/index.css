@@ -28,7 +28,7 @@ li {
 .header-menu nav {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .lista-menu {
@@ -66,6 +66,7 @@ li {
     display: flex;
     background-color: #EAEAEA;
     height: 100vh;
+    padding-bottom: 24px;
 }
 
 
@@ -84,16 +85,18 @@ li {
     height: 45px;
 }
 
-
-.texto-sobre {
-    font-size: 20px;
-    line-height: 32px;
-}
-
 .profissao {
     color: rgb(108, 16, 151);
     height: 60px;
 }
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+    
+}
+
+
 
 .wrapper-formacao {
     background-color:whitesmoke;
@@ -115,9 +118,22 @@ li {
 
 }
 
+.lista-port {
+    justify-content: flex-start;
+
+
+}
+
 .lista-titulo {
     margin-bottom: 5px;
     font-size: 22px;
+    color: #828282;
+    font-weight: 700;    
+}
+
+.lista-titulo1 {
+    margin-bottom: 5px;
+    font-size: 18px;
     color: #828282;
     font-weight: 700;    
 }
@@ -135,6 +151,14 @@ li {
     font-weight: 300;
 }
 
+.lista-descricao1{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #696565;
+    font-weight: 700;
+}
+
 .wrapper-portifolio{
     background-color: #EAEAEA;
     display: flex;
@@ -146,6 +170,9 @@ li {
     margin-top: 100px;
     margin-bottom: 100px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .subtitulo-lista {
@@ -153,6 +180,14 @@ li {
     color:#828282;
     font-weight: 500;
     }
+
+.lista-img li {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-position: center;
+}
 
 .footer {
     background-color: #5A53D8;
